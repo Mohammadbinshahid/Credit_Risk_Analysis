@@ -19,19 +19,11 @@ We will show the Balanced Accuracy Scores, Confusion Matrix and Imbalanced Class
 
 ### RandomOverSampler Model
 
-![RandomOverSampler - Balanced Accuracy Score](https://user-images.githubusercontent.com/104873181/188028207-d988c360-bf46-42ea-9468-195a2e8008a3.png)
-
-![RandomOverSampler - Confusion Matrix](https://user-images.githubusercontent.com/104873181/188028226-3220e491-88f0-401f-a952-c64369ca613c.png)
-
-![RandomOverSampler - Imbalanced Classification Report](https://user-images.githubusercontent.com/104873181/188028233-c1c0b0a3-b0f3-48c5-a52a-608e5ff1aa95.png)
+![RandomOverSampler - Results](https://user-images.githubusercontent.com/104873181/188028840-5fe9db0e-84a1-4f36-bac9-64a0338c6c72.png)
 
 ### SMOTE Oversampling
 
-![Smote Model - Balanced Accuracy Score](https://user-images.githubusercontent.com/104873181/188028290-135a6f10-833a-418b-a8b4-7579cb3bea11.png)
-
-![Smote Model - Confusion Matrix](https://user-images.githubusercontent.com/104873181/188028308-2707f0b7-62d0-4634-8006-e82adf55cd9b.png)
-
-![Smote Model - Imbalanced Classification Report](https://user-images.githubusercontent.com/104873181/188028318-28af31b7-adc5-43b7-bbbd-710cfb970b1b.png)
+![Smote Model - Results](https://user-images.githubusercontent.com/104873181/188028856-9395fca5-2c38-4844-be15-a606fa502156.png)
 
 ### Cluster Centroids Undersampling
 
