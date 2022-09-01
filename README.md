@@ -20,7 +20,9 @@ We will show the Balanced Accuracy Scores, Confusion Matrix and Imbalanced Class
 ### RandomOverSampler Model
 
 Balanced Accuracy Score = 0.637
+
 High Risk Precision = 1% with Sensitivity at 62%, f1 = 2%
+
 Low Risk Precision = 100% with Sensitivity at 65%, f1 = 79%
 
 Low risk precision of 100% with sensitivity at 65% shows high number of low risk population
@@ -30,7 +32,9 @@ Low risk precision of 100% with sensitivity at 65% shows high number of low risk
 ### SMOTE Oversampling
 
 Balanced Accuracy Score = 0.602
+
 High Risk Precision = 1% with Sensitivity at 62%, f1 = 2%
+
 Low Risk Precision = 100% with Sensitivity at 64%, f1 = 78%
 
 Results are almost similar to RandomOverSampler
@@ -40,7 +44,9 @@ Results are almost similar to RandomOverSampler
 ### Cluster Centroids Undersampling
 
 Balanced Accuracy Score = 0.510
+
 High Risk Precision = 1% with Sensitivity at 59%, f1 = 1%
+
 Low Risk Precision = 100% with Sensitivity at 43%, f1 = 60%
 
 Due to the high number of false positives, the low_risk sensitivity is only 43%
@@ -50,7 +56,9 @@ Due to the high number of false positives, the low_risk sensitivity is only 43%
 ### SMOTEENN (Combination of Over and Undersampling) 
 
 Balanced Accuracy Score = 0.625
+
 High Risk Precision = 1% with Sensitivity at 71%, f1 = 2%
+
 Low Risk Precision = 100% with Sensitivity at 54%, f1 = 70%
 
 Due to the high number of false positives, the low_risk sensitivity is only 54%
@@ -60,7 +68,9 @@ Due to the high number of false positives, the low_risk sensitivity is only 54%
 ### Balanced Random Forest Classifier
 
 Balanced Accuracy Score = 0.775
+
 High Risk Precision = 3% with Sensitivity at 64%, f1 = 6%
+
 Low Risk Precision = 100% with Sensitivity at 91%, f1 = 95%
 
 Due to the low number of false positives, the low_risk sensitivity is at 91% with 100% Precision
@@ -70,7 +80,9 @@ Due to the low number of false positives, the low_risk sensitivity is at 91% wit
 ### Easy Ensemble AdaBoost Classifier
 
 Balanced Accuracy Score = 0.925
+
 High Risk Precision = 7% with Sensitivity at 91%, f1 = 14%
+
 Low Risk Precision = 100% with Sensitivity at 94%, f1 = 97%
 
 Due to the low number of false positives, the low_risk sensitivity is at 94% with 100% Precision
