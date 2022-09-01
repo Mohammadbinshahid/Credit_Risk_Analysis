@@ -19,25 +19,61 @@ We will show the Balanced Accuracy Scores, Confusion Matrix and Imbalanced Class
 
 ### RandomOverSampler Model
 
+Balanced Accuracy Score = 0.637
+High Risk Precision = 1% with Sensitivity at 62%, f1 = 2%
+Low Risk Precision = 100% with Sensitivity at 65%, f1 = 79%
+
+Low risk precision of 100% with sensitivity at 65% shows high number of low risk population
+
 ![RandomOverSampler - Results](https://user-images.githubusercontent.com/104873181/188028840-5fe9db0e-84a1-4f36-bac9-64a0338c6c72.png)
 
 ### SMOTE Oversampling
+
+Balanced Accuracy Score = 0.602
+High Risk Precision = 1% with Sensitivity at 62%, f1 = 2%
+Low Risk Precision = 100% with Sensitivity at 64%, f1 = 78%
+
+Results are almost similar to RandomOverSampler
 
 ![Smote Model - Results](https://user-images.githubusercontent.com/104873181/188028856-9395fca5-2c38-4844-be15-a606fa502156.png)
 
 ### Cluster Centroids Undersampling
 
+Balanced Accuracy Score = 0.510
+High Risk Precision = 1% with Sensitivity at 59%, f1 = 1%
+Low Risk Precision = 100% with Sensitivity at 43%, f1 = 60%
+
+Due to the high number of false positives, the low_risk sensitivity is only 43%
+
 ![Cluster Centroids Undersampling Results](https://user-images.githubusercontent.com/104873181/188028382-6e17aac5-6b6d-4f81-ad81-1ffe3dea7322.png)
 
 ### SMOTEENN (Combination of Over and Undersampling) 
+
+Balanced Accuracy Score = 0.625
+High Risk Precision = 1% with Sensitivity at 71%, f1 = 2%
+Low Risk Precision = 100% with Sensitivity at 54%, f1 = 70%
+
+Due to the high number of false positives, the low_risk sensitivity is only 54%
 
 ![Smoteenn - Over and Under Sampling Results](https://user-images.githubusercontent.com/104873181/188028461-3173ffb7-15c8-4335-bc3f-346d28914917.png)
 
 ### Balanced Random Forest Classifier
 
+Balanced Accuracy Score = 0.775
+High Risk Precision = 3% with Sensitivity at 64%, f1 = 6%
+Low Risk Precision = 100% with Sensitivity at 91%, f1 = 95%
+
+Due to the low number of false positives, the low_risk sensitivity is at 91% with 100% Precision
+
 ![Balanced Random Forest Classifier - Results](https://user-images.githubusercontent.com/104873181/188028503-4611a559-c0f6-400c-a791-9b5ec147aa66.png)
 
 ### Easy Ensemble AdaBoost Classifier
+
+Balanced Accuracy Score = 0.925
+High Risk Precision = 7% with Sensitivity at 91%, f1 = 14%
+Low Risk Precision = 100% with Sensitivity at 94%, f1 = 97%
+
+Due to the low number of false positives, the low_risk sensitivity is at 94% with 100% Precision
 
 ![Cluster Centroids Undersampling Results](https://user-images.githubusercontent.com/104873181/188028574-80ded517-c497-432e-b41c-02dce28a3bae.png)
 
