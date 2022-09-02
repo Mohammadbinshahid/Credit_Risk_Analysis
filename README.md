@@ -89,5 +89,13 @@ Due to the low number of false positives, the low_risk sensitivity is at 94% wit
 
 ![Cluster Centroids Undersampling Results](https://user-images.githubusercontent.com/104873181/188028574-80ded517-c497-432e-b41c-02dce28a3bae.png)
 
+## Summary
 
+Overall the 2 Ensemble performed way better than the Oversampling/Undersampling/Combination algorithms. The worst performance was from Cluster Cenroids with a balanced accuracy score of 0.51. The best performance was from Easy Ensemble AdaBoost Classifier with a score of 0.925.
+
+Low Risk precision score was the same accross all i.e. 100%
+
+All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. The ensemble models brought a significant impovement specially on the high risk credits. The recall of 92.5% shows that the Easy Ensemble Classifier detects a high degree of high risk credits. WIth low levels of precision, the model still falsely detects low risk credits as high risk. 
+
+In my opinion, all models have low degree of precision and will not be suitable for use. Inaccurate analysis can result in missed business opportunities and may result in regulatory issues for the bank.
 
