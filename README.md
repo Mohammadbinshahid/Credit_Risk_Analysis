@@ -91,7 +91,7 @@ Due to the low number of false positives, the low_risk sensitivity is at 94% wit
 
 ## Summary
 
-Overall the 2 Ensemble performed way better than the Oversampling/Undersampling/Combination algorithms. The worst performance was from Cluster Cenroids with a balanced accuracy score of 0.51. The best performance was from Easy Ensemble AdaBoost Classifier with a score of 0.925.
+Overall the 2 Ensemble performed better than the Oversampling/Undersampling/Combination algorithms. The worst performance was from Cluster Cenroids with a balanced accuracy score of 0.51. The best performance was from Easy Ensemble AdaBoost Classifier with a score of 0.925.
 
 Low Risk precision score was the same accross all i.e. 100%
 
